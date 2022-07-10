@@ -1,0 +1,90 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/fulingyang/Documents/Unity_project/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49549
+Successfully changed project path to: /Users/fulingyang/Documents/Unity_project/My project
+/Users/fulingyang/Documents/Unity_project/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/fulingyang/Documents/Unity_project/My project/Assets
+GfxDevice: creating device client; threaded=0
+2022-06-19 21:08:41.166 Unity[1199:21386] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-06-19 21:08:41.166 Unity[1199:21386] Metal devices available: 1
+2022-06-19 21:08:41.166 Unity[1199:21386] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-06-19 21:08:41.166 Unity[1199:21386] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56199
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000483 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 35.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.960 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 36.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.649 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.9 MB.
+System memory in use after: 150.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 3.177844 ms (FindLiveObjects: 0.455310 ms CreateObjectMapping: 0.126508 ms MarkObjects: 2.500823 ms  DeleteObjects: 0.093520 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Bird.cs
+  artifactKey: Guid(101cfed541911486f8f5781c9b0add1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird.cs using Guid(101cfed541911486f8f5781c9b0add1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439c00f6cbfbf374ed81fee6311fa01c') in 0.352591 seconds
+  Import took 0.355781 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 17.224700 ms (FindLiveObjects: 0.656403 ms CreateObjectMapping: 0.073371 ms MarkObjects: 16.382108 ms  DeleteObjects: 0.110648 ms)
+
